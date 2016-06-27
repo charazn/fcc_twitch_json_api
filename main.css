@@ -1,0 +1,42 @@
+body {
+  background: url(https://dl.dropboxusercontent.com/s/40g0o60dyu9tism/starcraft2_1280.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.nav li a {
+  color: white;
+}
+
+.nav li a:hover {
+  color: black;
+}
+
+.nav li a[href="#online"]:focus {
+  background-color: #5cb85c;
+}
+
+.nav li a[href="#offline"]:focus {
+  background-color: #f0ad4e;
+}
+
+.col-md-3 * {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.online {
+  background-color: rgba(184, 204, 166, 0.7);
+}
+
+.online a {
+  color: #D3D3D3;
+}
+
+.offline {
+  background-color: rgba(74, 94, 130, 0.7);
+}
+
+.offline a {
+  color: #D3D3D3;
+}
